@@ -13,6 +13,6 @@ const server=http.createServer((req,res)=>{   //createServer return a instance o
 
 //Step 3. Specify a port number to listen to Client's Request
 
-server.listen(port,hostname,()=>{  
+server.listen(3001,()=>{  
   console.log("Server listening on port 3001")  
 }) //the other parameter after port number(3000) is a callback function ,and this callback function will be executed when server has started to listen
