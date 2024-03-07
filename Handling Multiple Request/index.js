@@ -18,3 +18,5 @@ const server=http.createServer((req,res)=>{
 server.listen(8000,()=>{
     console.log("Server Running on port 8000")
 })
+
+//chatGPT link https://chat.openai.com/c/ae541941-575d-4030-914d-122998e6baa7
