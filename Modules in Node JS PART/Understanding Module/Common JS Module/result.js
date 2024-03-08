@@ -1,5 +1,5 @@
-const result=require('./arithmatic.js')
+const arithmaticModule=require('./arithmatic.js')
 
-console.log(result.add(5,5))
-
-console.log(result.divide(25,5))
+console.log('arithmaticModule.add(5,5):',arithmaticModule.add(5,5))
+console.log('arithmaticModule.divide(25,5):',arithmaticModule.divide(25,5))
+console.log('arithmaticModule.value:',arithmaticModule.value)
