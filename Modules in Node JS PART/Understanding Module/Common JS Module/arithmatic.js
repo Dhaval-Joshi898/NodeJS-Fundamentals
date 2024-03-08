@@ -7,6 +7,7 @@ function div(x,y){
 }
 
 const value=20
+
 //the below is the common way to export function ,class ,variables 
 //They are export in form of object
 module.exports={
