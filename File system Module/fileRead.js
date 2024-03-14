@@ -18,3 +18,6 @@ console.log(buffer)  // OP <Buffer 4e 61 6d 65 3a 4a 6f 68 6e 20 44 6f 65 0d 0a 
 console.log(buffer.toString())
 //op:--->Name:John Doe      field : Marketing
 
+//if you do not want to do ,toString there is another paramter option of readFileSync (which an ibject with property encoding and value given utf8) will return string data in buffer1
+const buffer1=fs.readFileSync('data.txt',{encoding: 'utf8'})
+console.log(buffer1)   //op:--->Name:John Doe      field : Marketing
