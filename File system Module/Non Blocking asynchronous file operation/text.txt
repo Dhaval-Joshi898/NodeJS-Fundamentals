@@ -1,1 +1,1 @@
-The content is written using writeFIle
+The content is written using writeFIle This data has been appended using appendFile
