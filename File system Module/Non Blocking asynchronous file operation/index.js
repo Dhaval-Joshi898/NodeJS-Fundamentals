@@ -1,7 +1,7 @@
 const fs=require('fs')
 
 //fs.writeFile('fileName','data to be added in string' and 3param iS callback function with error parameter if an error encounted whike writing in file)
-fs.writeFile('text.txt','The content is written using writeFIle',(err)=>{
+fs.writeFile('text.txt','The content is written using writeIle',(err)=>{
     if(err){
         console.log(err)
     }
@@ -28,3 +28,23 @@ fs.appendFile('text.txt',' This data has been appended using appendFile',(err)=>
         console.log("Data has  been appended to the file")
     }
 })
+
+fs.unlink('text.js',(err)=>{
+    err? console.log(err):console.log('The file has been deleted')
+    // same like this:
+    // if(err){
+    //     console.log(err)
+    // }
+    // else{
+    //     console.log('The file has been deleted')
+    // same like this
+    // }
+})
+// here if i run this all are asynchronous operation WHOEVER task is finished console first There is not fixed sequence of running
+//if i run this it will first delete the file which was there text.js
+
+//in this sequence which is not fixed
+//The file has been deleted
+// Data has been written on file
+// Data has  been appended to the file
+// The content is written using writeFIle
