@@ -1,6 +1,6 @@
 const fs=require('fs')
 
-//fs.writeFile('fileName','data to be added in string' and 3param iS callback function with error parameter if an error encounted whike writing in file)
+//fs.writeFile('fileName','data to be added in string' and 3param iS callback function with error parameter if an error encounted while writing in file)
 fs.writeFile('text.txt','The content is written using writeIle',(err)=>{
     if(err){
         console.log(err)
@@ -20,6 +20,7 @@ fs.readFile('text.txt',(err,data)=>{
     }
 })
 
+// fs.appendFile('fileName','data to be added in string' and 3param iS callback function with error parameter if an error encounted while appending data in file
 fs.appendFile('text.txt',' This data has been appended using appendFile',(err)=>{
     if(err){
         console.log("Data has not been appended to the file",err)
