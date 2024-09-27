@@ -7,7 +7,7 @@ const fs=require('fs')
 
 // A buffer is a data structure that represents a chunk of memory. It is commonly used to handle binary data or data in a raw format.
 
-//---OS manages the files ,lets say os read data of file by 5 character per mili seconds and the programming lanh=guages take 3 character per milisecond to 
+//---OS manages the files ,lets say os read data of file by 5 character per mili seconds and the programming languages take 3 character per milisecond to 
 //  so the 2 characters left is stored in buffer so that the data is not lost if not recieved or read
 
 
