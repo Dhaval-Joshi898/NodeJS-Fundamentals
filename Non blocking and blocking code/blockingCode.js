@@ -15,4 +15,4 @@ setTimeout(()=>{
 },8000)
 
 
-console.log("It do not have to wait for execution")
+console.log("It do not have to wait for execution of above setTimeout")
